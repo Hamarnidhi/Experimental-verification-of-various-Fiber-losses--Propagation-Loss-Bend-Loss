@@ -53,8 +53,9 @@ Since the signal in Optical Fiber is transmitted in the form of light (different
 15. Replace 1m fiber with 3m fiber (no other changes). Measure peak value = **V2**.  
 
 **Formula:**  
-<img width="758" height="50" alt="image" src="https://github.com/user-attachments/assets/3ec6183f-3031-4862-bb34-9f59c7e29fa3" />
-
+\[
+\frac{P1}{P2} = \frac{V1}{V2} = e^{-a(L1+L2)}
+\]  
 Where:  
 - \(a\) = attenuation (nepers/meter)  
 - \(L1\) = fiber length for V1  
@@ -74,8 +75,9 @@ This \(a\) is for **660nm wavelength**.
 7. Replace 1m fiber with 3m fiber. Measure peak value = **V2**.  
 
 **Formula:**  
-<img width="758" height="50" alt="image" src="https://github.com/user-attachments/assets/56fbe9d6-9bff-460b-b04b-d2a73d0c3cd1" />
-
+\[
+\frac{P1}{P2} = \frac{V1}{V2} = e^{-a(L1+L2)}
+\]  
 
 This \(a\) is for **950nm wavelength**.  
 8. Compare attenuation values for 660nm and 950nm.  
@@ -93,16 +95,11 @@ This \(a\) is for **950nm wavelength**.
 ---
 
 ## TABULATION
+![WhatsApp Image 2026-02-13 at 7 24 12 PM (1)](https://github.com/user-attachments/assets/7891fd1c-b314-47c4-ac49-35c4adf640a1)
 
-### Propagation Loss
-| Fiber Length | Input Amplitude (V) | Output Amplitude (V) |
-|--------------|----------------------|-----------------------|
-|              |                      |                       |
+## CALCULATION
+![WhatsApp Image 2026-02-13 at 7 24 12 PM](https://github.com/user-attachments/assets/84c13884-b7b4-4508-9d5a-88108a2b7a51)
 
-### Bending Loss
-| Bending Diameter | Input Amplitude (V) | Output Amplitude (V) |
-|------------------|----------------------|-----------------------|
-|                  |                      |                       |
 
 ---
 
